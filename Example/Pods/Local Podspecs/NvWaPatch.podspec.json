@@ -1,0 +1,22 @@
+{
+  "name": "NvWaPatch",
+  "version": "0.1.0",
+  "summary": "A short description of NvWaPatch.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/李义真/NvWaPatch",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "李义真": "scut.liyizhen.software@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/李义真/NvWaPatch.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NvWaPatch/Classes/**/*"
+}

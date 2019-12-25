@@ -1,0 +1,9 @@
+use_frameworks!
+
+target 'NvWaPatch_Example' do
+  pod 'NvWaPatch', :path => '../'
+
+  target 'NvWaPatch_Tests' do
+    inherit! :search_paths
+  end
+end

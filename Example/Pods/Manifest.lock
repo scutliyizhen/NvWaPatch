@@ -1,0 +1,16 @@
+PODS:
+  - NvWaPatch (0.1.0)
+
+DEPENDENCIES:
+  - NvWaPatch (from `../`)
+
+EXTERNAL SOURCES:
+  NvWaPatch:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NvWaPatch: 8df82415c0f2027f93d2371c05900d3140b2ac8b
+
+PODFILE CHECKSUM: 38df4ac8489cec4c1c3e4ee515c1e79a05717775
+
+COCOAPODS: 1.8.3

@@ -1,0 +1,6 @@
+framework module NvWaPatch {
+  umbrella header "NvWaPatch-umbrella.h"
+
+  export *
+  module * { export * }
+}
