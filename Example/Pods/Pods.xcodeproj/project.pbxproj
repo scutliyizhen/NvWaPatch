@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		14F6CF5E8B3170E8F9ADBDBEF9B12FA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		162C4CC891A432ACD560D9A318709D31 /* NvWaPatch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D55A7DDD47D4EE086FE0A9882F8B21 /* NvWaPatch-dummy.m */; };
 		230CCC63CC55FD1CDE259DE271DE38DA /* Pods-NvWaPatch_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 440053D8912EDEEB0DECB66CD16D5CAC /* Pods-NvWaPatch_Example-dummy.m */; };
-		409496269F2EC696A8B3B402EE7F907A /* NvWaPatch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AEEF6212A48707414656EF33BCBA28 /* NvWaPatch-dummy.m */; };
 		5D4A5962AC8E9223F8235FFF77B15DE6 /* Pods-NvWaPatch_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D206303A447A3AFE2A333968761252CA /* Pods-NvWaPatch_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CA930E58354D8FFC8290FA9ECCD5468 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBCDB1F204BCBF30EA02D648642755 /* ReplaceMe.swift */; };
 		7F247DAA237089FC923EEAB144E0D4C5 /* Pods-NvWaPatch_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBDD2BC9E8E7B1022580B19C7E3A86D /* Pods-NvWaPatch_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9C0D2055F905EC5E8C244EA749A6DA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B55578D8C8F895217B1B7475D3002E58 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F70AAED7F484513E60E2691CB9E440 /* ReplaceMe.m */; };
 		C0C0D7C07752DB3499056007B6A9A202 /* Pods-NvWaPatch_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B15E04A3ECB67FD37AB8B2EE4A0EC344 /* Pods-NvWaPatch_Tests-dummy.m */; };
 		E98C0FB1D8D883C44A51332212C0AE4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		FCE0CAEB4833E11CC6AC22198B61B8FB /* NvWaPatch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E7496CC1C13023064B55C1A09006538 /* NvWaPatch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCE0CAEB4833E11CC6AC22198B61B8FB /* NvWaPatch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABBE599F4A1AAFEE7C006A70F0AECE5 /* NvWaPatch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,37 +38,37 @@
 
 /* Begin PBXFileReference section */
 		0B6B30A47C979D20A2CBB86085FC4AE5 /* Pods-NvWaPatch_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NvWaPatch_Example-frameworks.sh"; sourceTree = "<group>"; };
-		0E7496CC1C13023064B55C1A09006538 /* NvWaPatch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NvWaPatch-umbrella.h"; sourceTree = "<group>"; };
+		0E5D27177A79DE4EFE0DFD5C0D2C7A8C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		21F8EE75CC646AFBECE36D77C09C6997 /* Pods-NvWaPatch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NvWaPatch_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		270B0949AC1D61C71EF97D403FD3023D /* Pods-NvWaPatch_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NvWaPatch_Tests.modulemap"; sourceTree = "<group>"; };
-		2EFBCDB1F204BCBF30EA02D648642755 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = NvWaPatch/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		28D7B920D1577101D583C1F40FFD9AA2 /* NvWaPatch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NvWaPatch-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3F41AC68DE24ABABF9E666DA36B90323 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		410F408E8F572DBFFE18A61B63106E66 /* NvWaPatch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NvWaPatch.xcconfig; sourceTree = "<group>"; };
+		359C11B7C23BEFBB4A3EAB02FC1B2DB2 /* NvWaPatch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NvWaPatch.modulemap; sourceTree = "<group>"; };
+		37CF4775764938A063010E609B6EDB2B /* NvWaPatch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NvWaPatch.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		425CEF9F79BCF80B9695B7DAECBBEACF /* Pods-NvWaPatch_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NvWaPatch_Example-Info.plist"; sourceTree = "<group>"; };
 		440053D8912EDEEB0DECB66CD16D5CAC /* Pods-NvWaPatch_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NvWaPatch_Example-dummy.m"; sourceTree = "<group>"; };
-		49ECF3CE01E0F3320C8E7C558052FF0E /* NvWaPatch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NvWaPatch-prefix.pch"; sourceTree = "<group>"; };
 		4E9F9317E1F26F81278551802E565048 /* Pods-NvWaPatch_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NvWaPatch_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		52E7EA73CF8FF86FA34C0F1B9E099AEA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		55E3AD8B547F53E9065CA0A492F90E40 /* NvWaPatch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NvWaPatch-Info.plist"; sourceTree = "<group>"; };
+		527753E450C65F65E533BFA30D09F7F9 /* NvWaPatch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NvWaPatch.xcconfig; sourceTree = "<group>"; };
 		56C82B77D447A19CE9EE20C953FDCE40 /* Pods_NvWaPatch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NvWaPatch_Tests.framework; path = "Pods-NvWaPatch_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE7441F1132CE16C9778A5D5D1B14A9 /* Pods-NvWaPatch_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NvWaPatch_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5D67C14EA4797CFFC0F1B384226C1FFE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		61F002726DE4E4BB4D1F82C9D9A91814 /* NvWaPatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NvWaPatch.framework; path = NvWaPatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63060A907FD76EF94FB75D4D36E2F73A /* Pods-NvWaPatch_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NvWaPatch_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6DAEE3DFB708C10FC89CA6B3F0747FC4 /* Pods_NvWaPatch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NvWaPatch_Example.framework; path = "Pods-NvWaPatch_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7BA3B20245C79C0ED85CA9A71E570C20 /* NvWaPatch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NvWaPatch.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7ABBE599F4A1AAFEE7C006A70F0AECE5 /* NvWaPatch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NvWaPatch-umbrella.h"; sourceTree = "<group>"; };
 		909A45BE9662E436DCBF5373D7B3542A /* Pods-NvWaPatch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NvWaPatch_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		90BFECEA70223AC470606073C6C56794 /* NvWaPatch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NvWaPatch-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9F70AAED7F484513E60E2691CB9E440 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = NvWaPatch/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		B15E04A3ECB67FD37AB8B2EE4A0EC344 /* Pods-NvWaPatch_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NvWaPatch_Tests-dummy.m"; sourceTree = "<group>"; };
 		B9F02C73E6232CE02109DEA8EE420E9A /* Pods-NvWaPatch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NvWaPatch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BD4EBFC3ECC7B84564ABBA6CA513B149 /* Pods-NvWaPatch_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NvWaPatch_Tests-Info.plist"; sourceTree = "<group>"; };
 		C2C3C5B259A8A8BD2FB7EBFD140C32E0 /* Pods-NvWaPatch_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NvWaPatch_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C9D55A7DDD47D4EE086FE0A9882F8B21 /* NvWaPatch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NvWaPatch-dummy.m"; sourceTree = "<group>"; };
 		D0AB60E5D13B52B8A0B5AE6BED597F00 /* Pods-NvWaPatch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NvWaPatch_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D206303A447A3AFE2A333968761252CA /* Pods-NvWaPatch_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NvWaPatch_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DCBDD2BC9E8E7B1022580B19C7E3A86D /* Pods-NvWaPatch_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NvWaPatch_Example-umbrella.h"; sourceTree = "<group>"; };
-		E04D851E4ADDE7C0FD5D784A514B577E /* NvWaPatch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NvWaPatch.modulemap; sourceTree = "<group>"; };
 		EFAC196614ED3B662262BF3781EE44BF /* Pods-NvWaPatch_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NvWaPatch_Example.modulemap"; sourceTree = "<group>"; };
-		F9AEEF6212A48707414656EF33BCBA28 /* NvWaPatch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NvWaPatch-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +99,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0713BF124D82BB0ADAA0A6E0FC46FCDB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0E5D27177A79DE4EFE0DFD5C0D2C7A8C /* LICENSE */,
+				37CF4775764938A063010E609B6EDB2B /* NvWaPatch.podspec */,
+				5D67C14EA4797CFFC0F1B384226C1FFE /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		200C62CFBB2B6D8504B859683CFDDC52 /* NvWaPatch */ = {
+			isa = PBXGroup;
+			children = (
+				A9F70AAED7F484513E60E2691CB9E440 /* ReplaceMe.m */,
+				0713BF124D82BB0ADAA0A6E0FC46FCDB /* Pod */,
+				82FCB5C1A3FDB5AA07C55E251FE8AF6C /* Support Files */,
+			);
+			name = NvWaPatch;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		5025FC66FA34581592B7AD884791FB28 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,27 +127,6 @@
 				709B6763A2876715A8B88D47D817D996 /* Pods-NvWaPatch_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		63CD85B168473F5B922392B427EAEE3C /* NvWaPatch */ = {
-			isa = PBXGroup;
-			children = (
-				2EFBCDB1F204BCBF30EA02D648642755 /* ReplaceMe.swift */,
-				6CA3326799656015687D6AC03A5CE817 /* Pod */,
-				CF2D968ED60107FCE60729E9CDB3176A /* Support Files */,
-			);
-			name = NvWaPatch;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		6CA3326799656015687D6AC03A5CE817 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				52E7EA73CF8FF86FA34C0F1B9E099AEA /* LICENSE */,
-				7BA3B20245C79C0ED85CA9A71E570C20 /* NvWaPatch.podspec */,
-				3F41AC68DE24ABABF9E666DA36B90323 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		709B6763A2876715A8B88D47D817D996 /* Pods-NvWaPatch_Tests */ = {
@@ -153,6 +153,20 @@
 				56C82B77D447A19CE9EE20C953FDCE40 /* Pods_NvWaPatch_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		82FCB5C1A3FDB5AA07C55E251FE8AF6C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				359C11B7C23BEFBB4A3EAB02FC1B2DB2 /* NvWaPatch.modulemap */,
+				527753E450C65F65E533BFA30D09F7F9 /* NvWaPatch.xcconfig */,
+				C9D55A7DDD47D4EE086FE0A9882F8B21 /* NvWaPatch-dummy.m */,
+				28D7B920D1577101D583C1F40FFD9AA2 /* NvWaPatch-Info.plist */,
+				90BFECEA70223AC470606073C6C56794 /* NvWaPatch-prefix.pch */,
+				7ABBE599F4A1AAFEE7C006A70F0AECE5 /* NvWaPatch-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NvWaPatch";
 			sourceTree = "<group>";
 		};
 		9241D4617C40B340384E66D8D75F3CCB /* Pods-NvWaPatch_Example */ = {
@@ -191,20 +205,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		CF2D968ED60107FCE60729E9CDB3176A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E04D851E4ADDE7C0FD5D784A514B577E /* NvWaPatch.modulemap */,
-				410F408E8F572DBFFE18A61B63106E66 /* NvWaPatch.xcconfig */,
-				F9AEEF6212A48707414656EF33BCBA28 /* NvWaPatch-dummy.m */,
-				55E3AD8B547F53E9065CA0A492F90E40 /* NvWaPatch-Info.plist */,
-				49ECF3CE01E0F3320C8E7C558052FF0E /* NvWaPatch-prefix.pch */,
-				0E7496CC1C13023064B55C1A09006538 /* NvWaPatch-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/NvWaPatch";
-			sourceTree = "<group>";
-		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -216,7 +216,7 @@
 		DAFD566FFBC636E7C0C140E6A06EF36C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				63CD85B168473F5B922392B427EAEE3C /* NvWaPatch */,
+				200C62CFBB2B6D8504B859683CFDDC52 /* NvWaPatch */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -294,7 +294,7 @@
 			buildConfigurationList = E181AE44B0B7B04B03A9DEFBD9DB4ED5 /* Build configuration list for PBXNativeTarget "NvWaPatch" */;
 			buildPhases = (
 				4C14878FB7E20FCCDE628234501F2D6E /* Headers */,
-				557464B5178C30196A3290D348E1F759 /* Sources */,
+				778E5974AFE337DCF1CC6D5E0A581CFE /* Sources */,
 				E7FA955A6D46F88AF600ACDF762FCF5C /* Frameworks */,
 				7201B2087DFF95170CDC03EC27C42C94 /* Resources */,
 			);
@@ -368,12 +368,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		557464B5178C30196A3290D348E1F759 /* Sources */ = {
+		778E5974AFE337DCF1CC6D5E0A581CFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				409496269F2EC696A8B3B402EE7F907A /* NvWaPatch-dummy.m in Sources */,
-				7CA930E58354D8FFC8290FA9ECCD5468 /* ReplaceMe.swift in Sources */,
+				162C4CC891A432ACD560D9A318709D31 /* NvWaPatch-dummy.m in Sources */,
+				B55578D8C8F895217B1B7475D3002E58 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,75 +403,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1179F67C12E9E0F4A1C22A75149A1A16 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 909A45BE9662E436DCBF5373D7B3542A /* Pods-NvWaPatch_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NvWaPatch_Tests/Pods-NvWaPatch_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NvWaPatch_Tests/Pods-NvWaPatch_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		666D47428F7389CE021EA95F1708DDAC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0AB60E5D13B52B8A0B5AE6BED597F00 /* Pods-NvWaPatch_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NvWaPatch_Example/Pods-NvWaPatch_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NvWaPatch_Example/Pods-NvWaPatch_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -519,7 +451,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -531,9 +463,9 @@
 			};
 			name = Release;
 		};
-		B341D030EF31CCBB64E2A2FD0B93D23C /* Debug */ = {
+		5B7CD5524D31DEF970994ADD53589C10 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9F02C73E6232CE02109DEA8EE420E9A /* Pods-NvWaPatch_Tests.debug.xcconfig */;
+			baseConfigurationReference = D0AB60E5D13B52B8A0B5AE6BED597F00 /* Pods-NvWaPatch_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -545,12 +477,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NvWaPatch_Tests/Pods-NvWaPatch_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-NvWaPatch_Example/Pods-NvWaPatch_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NvWaPatch_Tests/Pods-NvWaPatch_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-NvWaPatch_Example/Pods-NvWaPatch_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -559,12 +491,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -615,7 +548,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -628,7 +561,41 @@
 			};
 			name = Debug;
 		};
-		D8E4BBC34AD88BA4AEAADBFBC4A0C712 /* Debug */ = {
+		A37C5DCD90DA13890E5833B78655BC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 909A45BE9662E436DCBF5373D7B3542A /* Pods-NvWaPatch_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NvWaPatch_Tests/Pods-NvWaPatch_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NvWaPatch_Tests/Pods-NvWaPatch_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7C7922237AB1D9B7C537750D877C899 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 21F8EE75CC646AFBECE36D77C09C6997 /* Pods-NvWaPatch_Example.debug.xcconfig */;
 			buildSettings = {
@@ -644,7 +611,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-NvWaPatch_Example/Pods-NvWaPatch_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-NvWaPatch_Example/Pods-NvWaPatch_Example.modulemap";
@@ -663,7 +630,7 @@
 		};
 		E2A20A22F3A2CB7526573EC0F7E3A9FA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 410F408E8F572DBFFE18A61B63106E66 /* NvWaPatch.xcconfig */;
+			baseConfigurationReference = 527753E450C65F65E533BFA30D09F7F9 /* NvWaPatch.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -693,9 +660,42 @@
 			};
 			name = Release;
 		};
+		E7CED4145A62FF63774AACA9DAB9B44D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9F02C73E6232CE02109DEA8EE420E9A /* Pods-NvWaPatch_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NvWaPatch_Tests/Pods-NvWaPatch_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NvWaPatch_Tests/Pods-NvWaPatch_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		F046BFEBF2DC932B9B6ECD6A08802D10 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 410F408E8F572DBFFE18A61B63106E66 /* NvWaPatch.xcconfig */;
+			baseConfigurationReference = 527753E450C65F65E533BFA30D09F7F9 /* NvWaPatch.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -730,8 +730,8 @@
 		264B5329F314662EFACACBAA1FD0BCC1 /* Build configuration list for PBXNativeTarget "Pods-NvWaPatch_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B341D030EF31CCBB64E2A2FD0B93D23C /* Debug */,
-				1179F67C12E9E0F4A1C22A75149A1A16 /* Release */,
+				E7CED4145A62FF63774AACA9DAB9B44D /* Debug */,
+				A37C5DCD90DA13890E5833B78655BC82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -739,8 +739,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -748,8 +748,8 @@
 		C7E60337AE7814A12B31E22E809A8C97 /* Build configuration list for PBXNativeTarget "Pods-NvWaPatch_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D8E4BBC34AD88BA4AEAADBFBC4A0C712 /* Debug */,
-				666D47428F7389CE021EA95F1708DDAC /* Release */,
+				C7C7922237AB1D9B7C537750D877C899 /* Debug */,
+				5B7CD5524D31DEF970994ADD53589C10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,11 @@
+framework module NvWaPatchLib {
+  umbrella header "NvWaPatchLib.h"
+
+  export *
+  module * { export * }
+}
+
+module NvWaPatchLib.Swift {
+    header "NvWaPatchLib-Swift.h"
+    requires objc
+}
