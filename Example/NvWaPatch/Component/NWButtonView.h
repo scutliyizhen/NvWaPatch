@@ -14,7 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NWButtonView : UIView
 @property (nonatomic ,copy)NWButtonViewBtnClick runtimeBtnClick;
-@property (nonatomic ,copy)NWButtonViewBtnClick demoBtnClick;
+@property (nonatomic ,copy)NWButtonViewBtnClick demoBtnClick1;
+@property (nonatomic ,copy)NWButtonViewBtnClick demoBtnClick2;
 @property (nonatomic ,copy)NWButtonViewBtnClick testBtnClick;
 @end
 

@@ -25,11 +25,11 @@
     //启动js engine
     [[NWJSEngine shared] startEngine];
     __weak typeof(self) weakSelf = self;
-    [[NWJSEngine shared] refreshRuntimeLoadJavascriptWithJsURL:@"" callBack:^(BOOL success, NSString * _Nonnull msg) {
+    [[NWJSEngine shared] refreshRuntimeLoadJavascriptWithJsURL:@"http://127.0.0.1:8080/nuwa-runtime.js" callBack:^(BOOL success, NSString * _Nonnull msg) {
         if(success == true) {
             [weakSelf.stateView changeRuntimeState:@"Runtime更新成功"];
         } else {
-           [weakSelf.stateView changeRuntimeState:@"Runtime更新成功"];
+           [weakSelf.stateView changeRuntimeState:@"Runtime更新失败"];
         }
     }];
 }
@@ -58,8 +58,12 @@
         _btnView.runtimeBtnClick = ^(UIButton * _Nullable btn) {
             [weakSelf _runtimeRefresh];
         };
-        _btnView.demoBtnClick = ^(UIButton * _Nullable btn) {
-            [weakSelf _demoRefresh];
+        _btnView.demoBtnClick1 = ^(UIButton * _Nullable btn) {
+            [weakSelf _demoRefresh:@"http://127.0.0.1:8080/testDemo1.js"];
+        };
+        
+        _btnView.demoBtnClick2 = ^(UIButton * _Nullable btn) {
+            [weakSelf _demoRefresh:@"http://127.0.0.1:8080/testDemo2.js"];
         };
         _btnView.testBtnClick = ^(UIButton * _Nullable btn) {
             [weakSelf _demoTest];
@@ -84,14 +88,14 @@
         if(success == true) {
             [weakSelf.stateView changeRuntimeState:@"Runtime更新成功"];
         } else {
-           [weakSelf.stateView changeRuntimeState:@"Runtime更新成功"];
+           [weakSelf.stateView changeRuntimeState:@"Runtime更新失败"];
         }
     }];
 }
 
-- (void)_demoRefresh {
+- (void)_demoRefresh:(NSString*)demoURL {
     __weak typeof(self) weakSelf = self;
-    [[NWJSEngine shared] refreshNuWaPatchTestDemoLoadJavascriptWithJsURL:@"http://192.168.31.214:8080/testDemo.js" callBack:^(BOOL success, NSString * _Nonnull msg) {
+    [[NWJSEngine shared] refreshNuWaPatchTestDemoLoadJavascriptWithJsURL:demoURL callBack:^(BOOL success, NSString * _Nonnull msg) {
         if(success == true) {
             [weakSelf.stateView changeDemoState:@"demoJS更新成功"];
         } else {

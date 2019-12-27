@@ -10,7 +10,8 @@
 
 @interface NWButtonView()
 @property (nonatomic ,strong)UIButton *runtimeBtn;
-@property (nonatomic ,strong)UIButton *demoBtn;
+@property (nonatomic ,strong)UIButton *demoBtn1;
+@property (nonatomic ,strong)UIButton *demoBtn2;
 @property (nonatomic ,strong)UIButton *testBtn;
 @end
 
@@ -21,8 +22,9 @@
     CGFloat gapW = 16.0;
     CGFloat gapH = 16.0;
     self.runtimeBtn.frame = CGRectMake(gapW, gapH, CGRectGetWidth(self.bounds) - 2* gapW, (CGRectGetHeight(self.bounds) - 4*gapH)/3);
-    self.demoBtn.frame = CGRectMake(CGRectGetMinX(self.runtimeBtn.frame),CGRectGetMaxY(self.runtimeBtn.frame) + gapH, CGRectGetWidth(self.runtimeBtn.bounds), CGRectGetHeight(self.runtimeBtn.bounds));
-    self.testBtn.frame = CGRectMake(CGRectGetMinX(self.demoBtn.frame),CGRectGetMaxY(self.demoBtn.frame) + gapH, CGRectGetWidth(self.demoBtn.bounds), CGRectGetHeight(self.demoBtn.bounds));
+    self.demoBtn1.frame = CGRectMake(CGRectGetMinX(self.runtimeBtn.frame),CGRectGetMaxY(self.runtimeBtn.frame) + gapH, CGRectGetWidth(self.runtimeBtn.bounds)/2.0, CGRectGetHeight(self.runtimeBtn.bounds));
+    self.demoBtn2.frame = CGRectMake(CGRectGetMaxX(self.demoBtn1.frame),CGRectGetMaxY(self.runtimeBtn.frame) + gapH, CGRectGetWidth(self.runtimeBtn.bounds)/2.0, CGRectGetHeight(self.runtimeBtn.bounds));
+    self.testBtn.frame = CGRectMake(CGRectGetMinX(self.demoBtn1.frame),CGRectGetMaxY(self.demoBtn1.frame) + gapH, CGRectGetWidth(self.runtimeBtn.bounds), CGRectGetHeight(self.runtimeBtn.bounds));
 }
 
 - (UIButton*)testBtn {
@@ -47,15 +49,26 @@
     return _runtimeBtn;
 }
 
-- (UIButton*)demoBtn {
-    if (_demoBtn == nil) {
-        _demoBtn = [[UIButton alloc] init];
-        [_demoBtn setTitle:@"demo脚本刷新" forState:UIControlStateNormal];
-        [_demoBtn setBackgroundColor:UIColor.grayColor];
-        [_demoBtn addTarget:self action:@selector(_demoBtnClick:) forControlEvents:UIControlEventTouchUpInside];
-        [self addSubview:_demoBtn];
+- (UIButton*)demoBtn1 {
+    if (_demoBtn1 == nil) {
+        _demoBtn1 = [[UIButton alloc] init];
+        [_demoBtn1 setTitle:@"demo脚本刷新1" forState:UIControlStateNormal];
+        [_demoBtn1 setBackgroundColor:UIColor.grayColor];
+        [_demoBtn1 addTarget:self action:@selector(_demoBtnClick1:) forControlEvents:UIControlEventTouchUpInside];
+        [self addSubview:_demoBtn1];
     }
-    return _demoBtn;
+    return _demoBtn1;
+}
+
+- (UIButton*)demoBtn2 {
+    if (_demoBtn2 == nil) {
+        _demoBtn2 = [[UIButton alloc] init];
+        [_demoBtn2 setTitle:@"demo脚本刷新2" forState:UIControlStateNormal];
+        [_demoBtn2 setBackgroundColor:UIColor.systemPinkColor];
+        [_demoBtn2 addTarget:self action:@selector(_demoBtnClick2:) forControlEvents:UIControlEventTouchUpInside];
+        [self addSubview:_demoBtn2];
+    }
+    return _demoBtn2;
 }
 
 - (void)_runtimeBtnClick:(UIButton*)btn {
@@ -64,9 +77,15 @@
     }
 }
 
-- (void)_demoBtnClick:(UIButton*)btn {
-    if (self.demoBtnClick) {
-        self.demoBtnClick(btn);
+- (void)_demoBtnClick1:(UIButton*)btn {
+    if (self.demoBtnClick1) {
+        self.demoBtnClick1(btn);
+    }
+}
+
+- (void)_demoBtnClick2:(UIButton*)btn {
+    if (self.demoBtnClick2) {
+        self.demoBtnClick2(btn);
     }
 }
 
