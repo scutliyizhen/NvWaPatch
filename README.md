@@ -36,6 +36,8 @@
 
 （2）由于不开源，源码地址：https://bitbucket.org/li_yizhen/nuwapatch/src/master/    
 
+![NVWaPatch](./GitResources/NvWaPatch.gif)
+
 ## Author  
 
 李义真, scut.liyizhen.software@gmail.com  
