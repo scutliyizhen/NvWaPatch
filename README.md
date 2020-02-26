@@ -30,11 +30,11 @@
 
 2.效果演示 
 
-<font color="#dd0000">备注：</font><br/>   
+<font color="#dd0000">备注：</font>
 
-（1）因<font color="#006666">目前只是将主链路打通，还有很多数据结构、方法并未丰富完善，支持能力还很弱</font><br/>，可运行提供的Demo即可。  
+（1）因<font color="#006666">目前只是将主链路打通，还有很多数据结构、方法并未丰富完善，支持能力还很弱</font>，可运行提供的Demo即可。  
 
-（2）未开源，<font color="#006666">项目原始源码地址：https://bitbucket.org/li_yizhen/nuwapatch/src/master/</font><br/>。   
+（2）未开源，<font color="#006666">项目原始源码地址：https://bitbucket.org/li_yizhen/nuwapatch/src/master/</font>  
 
 ![NVWaPatch](./GitResources/NvWaPatch.gif)
 
