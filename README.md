@@ -38,6 +38,10 @@
 
 ![NVWaPatch](./GitResources/NvWaPatch.gif)
 
+**3.附件**
+
+![NVWaPatch](./GitResources/ProjectAncillary.png)
+
 ## Author  
 
 李义真, scut.liyizhen.software@gmail.com  
