@@ -6,7 +6,7 @@
 
 2.为大家对动态化方案提供一种思路，或者作为业余项目学习。
 
-3.该项目本意想扩展到Swift，有兴趣的同学可以探索下。
+3.该项目本意想扩展到Swift，有兴趣的同学可以进一步探索下。
 
 4.项目原始源码地址：https://bitbucket.org/li_yizhen/nuwapatch/src/master/   
 
