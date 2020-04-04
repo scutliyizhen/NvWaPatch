@@ -8,6 +8,8 @@
 
 3.该项目本意想扩展到Swift，有兴趣的同学可以探索下。
 
+4.项目原始源码地址：https://bitbucket.org/li_yizhen/nuwapatch/src/master/   
+
 ##  技术价值  
 
 1.动态替换原生代码，线上修复bug。  
@@ -42,9 +44,7 @@
 
 **备注:**  
 
-（1）因目前只是将主链路打通，还有很多数据结构、方法并未丰富完善，支持能力还很弱，可运行提供的Demo即可。  
-
-（2）未开源，项目原始源码地址：https://bitbucket.org/li_yizhen/nuwapatch/src/master/   
+因目前只是将主链路打通，还有很多数据结构、方法并未丰富完善，支持能力还很弱，可运行提供的Demo即可。  
 
 ![NVWaPatch](./GitResources/NvWaPatch.gif)
 
