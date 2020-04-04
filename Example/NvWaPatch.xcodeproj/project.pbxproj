@@ -23,10 +23,26 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		9885E1B124390E1400CDDF96 /* NWDefineDSLParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9885E18E24390E1400CDDF96 /* NWDefineDSLParse.swift */; };
+		9885E1B224390E1400CDDF96 /* NWObjCHookInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9885E19124390E1400CDDF96 /* NWObjCHookInfo.m */; };
+		9885E1B324390E1400CDDF96 /* NWFuncHookInfoPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9885E19224390E1400CDDF96 /* NWFuncHookInfoPool.swift */; };
+		9885E1B424390E1400CDDF96 /* NWHookInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9885E19424390E1400CDDF96 /* NWHookInfo.m */; };
+		9885E1B524390E1400CDDF96 /* NWFuncHook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9885E19524390E1400CDDF96 /* NWFuncHook.swift */; };
+		9885E1B624390E1400CDDF96 /* NWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9885E19724390E1400CDDF96 /* NWUtils.m */; };
+		9885E1B724390E1400CDDF96 /* NWJSDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9885E19A24390E1400CDDF96 /* NWJSDownloader.swift */; };
+		9885E1B824390E1400CDDF96 /* NWJSCoreBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9885E19B24390E1400CDDF96 /* NWJSCoreBridge.swift */; };
+		9885E1B924390E1400CDDF96 /* NWJSEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9885E19C24390E1400CDDF96 /* NWJSEngine.swift */; };
+		9885E1BA24390E1400CDDF96 /* NWJSBridgeContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9885E19D24390E1400CDDF96 /* NWJSBridgeContext.swift */; };
+		9885E1BB24390E1400CDDF96 /* NWMethodSignature.m in Sources */ = {isa = PBXBuildFile; fileRef = 9885E1A224390E1400CDDF96 /* NWMethodSignature.m */; };
+		9885E1BC24390E1400CDDF96 /* NWObjCMethodSignature.m in Sources */ = {isa = PBXBuildFile; fileRef = 9885E1A324390E1400CDDF96 /* NWObjCMethodSignature.m */; };
+		9885E1BD24390E1400CDDF96 /* NWMethodReturnValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9885E1A624390E1400CDDF96 /* NWMethodReturnValue.m */; };
+		9885E1BE24390E1400CDDF96 /* NWJSMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 9885E1A824390E1400CDDF96 /* NWJSMethod.m */; };
+		9885E1BF24390E1400CDDF96 /* NWMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 9885E1A924390E1400CDDF96 /* NWMethod.m */; };
+		9885E1C024390E1400CDDF96 /* NWObjCMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 9885E1AA24390E1400CDDF96 /* NWObjCMethod.m */; };
+		9885E1C124390E1400CDDF96 /* NWMethodArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = 9885E1B024390E1400CDDF96 /* NWMethodArgument.m */; };
 		98E44A2023B3E08E00C28C4F /* NWButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E44A1D23B3E08E00C28C4F /* NWButtonView.m */; };
 		98E44A2123B3E08E00C28C4F /* NWStateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E44A1E23B3E08E00C28C4F /* NWStateView.m */; };
 		98E44A2423B3E2F900C28C4F /* NWTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E44A2323B3E2F900C28C4F /* NWTest.swift */; };
-		98E44A2623B3E4C700C28C4F /* NvWaPatchLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E44A2523B3E4C700C28C4F /* NvWaPatchLib.framework */; };
 		9FCB38364095D995E5F6ABC9 /* Pods_NvWaPatch_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BF78084BA7EB99C2E9AB71 /* Pods_NvWaPatch_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,13 +82,39 @@
 		63BF78084BA7EB99C2E9AB71 /* Pods_NvWaPatch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NvWaPatch_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9885E18E24390E1400CDDF96 /* NWDefineDSLParse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NWDefineDSLParse.swift; sourceTree = "<group>"; };
+		9885E19024390E1400CDDF96 /* NWHookInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWHookInfo.h; sourceTree = "<group>"; };
+		9885E19124390E1400CDDF96 /* NWObjCHookInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWObjCHookInfo.m; sourceTree = "<group>"; };
+		9885E19224390E1400CDDF96 /* NWFuncHookInfoPool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NWFuncHookInfoPool.swift; sourceTree = "<group>"; };
+		9885E19324390E1400CDDF96 /* NWObjCHookInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWObjCHookInfo.h; sourceTree = "<group>"; };
+		9885E19424390E1400CDDF96 /* NWHookInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWHookInfo.m; sourceTree = "<group>"; };
+		9885E19524390E1400CDDF96 /* NWFuncHook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NWFuncHook.swift; sourceTree = "<group>"; };
+		9885E19724390E1400CDDF96 /* NWUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWUtils.m; sourceTree = "<group>"; };
+		9885E19824390E1400CDDF96 /* NWUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWUtils.h; sourceTree = "<group>"; };
+		9885E19A24390E1400CDDF96 /* NWJSDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NWJSDownloader.swift; sourceTree = "<group>"; };
+		9885E19B24390E1400CDDF96 /* NWJSCoreBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NWJSCoreBridge.swift; sourceTree = "<group>"; };
+		9885E19C24390E1400CDDF96 /* NWJSEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NWJSEngine.swift; sourceTree = "<group>"; };
+		9885E19D24390E1400CDDF96 /* NWJSBridgeContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NWJSBridgeContext.swift; sourceTree = "<group>"; };
+		9885E1A024390E1400CDDF96 /* NWMethodSignature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWMethodSignature.h; sourceTree = "<group>"; };
+		9885E1A124390E1400CDDF96 /* NWObjCMethodSignature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWObjCMethodSignature.h; sourceTree = "<group>"; };
+		9885E1A224390E1400CDDF96 /* NWMethodSignature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWMethodSignature.m; sourceTree = "<group>"; };
+		9885E1A324390E1400CDDF96 /* NWObjCMethodSignature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWObjCMethodSignature.m; sourceTree = "<group>"; };
+		9885E1A524390E1400CDDF96 /* NWMethodReturnValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWMethodReturnValue.h; sourceTree = "<group>"; };
+		9885E1A624390E1400CDDF96 /* NWMethodReturnValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWMethodReturnValue.m; sourceTree = "<group>"; };
+		9885E1A824390E1400CDDF96 /* NWJSMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWJSMethod.m; sourceTree = "<group>"; };
+		9885E1A924390E1400CDDF96 /* NWMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWMethod.m; sourceTree = "<group>"; };
+		9885E1AA24390E1400CDDF96 /* NWObjCMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWObjCMethod.m; sourceTree = "<group>"; };
+		9885E1AB24390E1400CDDF96 /* NWMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWMethod.h; sourceTree = "<group>"; };
+		9885E1AC24390E1400CDDF96 /* NWJSMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWJSMethod.h; sourceTree = "<group>"; };
+		9885E1AD24390E1400CDDF96 /* NWObjCMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWObjCMethod.h; sourceTree = "<group>"; };
+		9885E1AF24390E1400CDDF96 /* NWMethodArgument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWMethodArgument.h; sourceTree = "<group>"; };
+		9885E1B024390E1400CDDF96 /* NWMethodArgument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWMethodArgument.m; sourceTree = "<group>"; };
 		98E44A1C23B3E08E00C28C4F /* NWStateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWStateView.h; sourceTree = "<group>"; };
 		98E44A1D23B3E08E00C28C4F /* NWButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWButtonView.m; sourceTree = "<group>"; };
 		98E44A1E23B3E08E00C28C4F /* NWStateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWStateView.m; sourceTree = "<group>"; };
 		98E44A1F23B3E08E00C28C4F /* NWButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWButtonView.h; sourceTree = "<group>"; };
 		98E44A2223B3E2F900C28C4F /* NvWaPatch_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NvWaPatch_Example-Bridging-Header.h"; sourceTree = "<group>"; };
 		98E44A2323B3E2F900C28C4F /* NWTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWTest.swift; sourceTree = "<group>"; };
-		98E44A2523B3E4C700C28C4F /* NvWaPatchLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NvWaPatchLib.framework; sourceTree = "<group>"; };
 		9E0C76D0809433EB1F01A602 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9E7349AD20E7D0C0C7DC5654 /* NvWaPatch.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NvWaPatch.podspec; path = ../NvWaPatch.podspec; sourceTree = "<group>"; };
 		B90C8B2DB8540678D7A2E59C /* Pods-NvWaPatch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NvWaPatch_Example.debug.xcconfig"; path = "Target Support Files/Pods-NvWaPatch_Example/Pods-NvWaPatch_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -85,7 +127,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98E44A2623B3E4C700C28C4F /* NvWaPatchLib.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -131,7 +172,6 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				98E44A2523B3E4C700C28C4F /* NvWaPatchLib.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -145,6 +185,7 @@
 		6003F593195388D20070C39A /* Example for NvWaPatch */ = {
 			isa = PBXGroup;
 			children = (
+				9885E18C24390E1400CDDF96 /* NvWaPatchLib */,
 				98E44A1B23B3E08E00C28C4F /* Component */,
 				6003F59C195388D20070C39A /* NWAppDelegate.h */,
 				6003F59D195388D20070C39A /* NWAppDelegate.m */,
@@ -199,6 +240,112 @@
 				2FA97809B8FCA939CC0180F5 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		9885E18C24390E1400CDDF96 /* NvWaPatchLib */ = {
+			isa = PBXGroup;
+			children = (
+				9885E18D24390E1400CDDF96 /* DSLPrase */,
+				9885E18F24390E1400CDDF96 /* HookEngine */,
+				9885E19624390E1400CDDF96 /* Utils */,
+				9885E19924390E1400CDDF96 /* JSEngine */,
+				9885E19E24390E1400CDDF96 /* Method */,
+			);
+			path = NvWaPatchLib;
+			sourceTree = SOURCE_ROOT;
+		};
+		9885E18D24390E1400CDDF96 /* DSLPrase */ = {
+			isa = PBXGroup;
+			children = (
+				9885E18E24390E1400CDDF96 /* NWDefineDSLParse.swift */,
+			);
+			path = DSLPrase;
+			sourceTree = "<group>";
+		};
+		9885E18F24390E1400CDDF96 /* HookEngine */ = {
+			isa = PBXGroup;
+			children = (
+				9885E19024390E1400CDDF96 /* NWHookInfo.h */,
+				9885E19124390E1400CDDF96 /* NWObjCHookInfo.m */,
+				9885E19224390E1400CDDF96 /* NWFuncHookInfoPool.swift */,
+				9885E19324390E1400CDDF96 /* NWObjCHookInfo.h */,
+				9885E19424390E1400CDDF96 /* NWHookInfo.m */,
+				9885E19524390E1400CDDF96 /* NWFuncHook.swift */,
+			);
+			path = HookEngine;
+			sourceTree = "<group>";
+		};
+		9885E19624390E1400CDDF96 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9885E19724390E1400CDDF96 /* NWUtils.m */,
+				9885E19824390E1400CDDF96 /* NWUtils.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9885E19924390E1400CDDF96 /* JSEngine */ = {
+			isa = PBXGroup;
+			children = (
+				9885E19A24390E1400CDDF96 /* NWJSDownloader.swift */,
+				9885E19B24390E1400CDDF96 /* NWJSCoreBridge.swift */,
+				9885E19C24390E1400CDDF96 /* NWJSEngine.swift */,
+				9885E19D24390E1400CDDF96 /* NWJSBridgeContext.swift */,
+			);
+			path = JSEngine;
+			sourceTree = "<group>";
+		};
+		9885E19E24390E1400CDDF96 /* Method */ = {
+			isa = PBXGroup;
+			children = (
+				9885E19F24390E1400CDDF96 /* Signature */,
+				9885E1A424390E1400CDDF96 /* ReturnValue */,
+				9885E1A724390E1400CDDF96 /* Definition */,
+				9885E1AE24390E1400CDDF96 /* Arguments */,
+			);
+			path = Method;
+			sourceTree = "<group>";
+		};
+		9885E19F24390E1400CDDF96 /* Signature */ = {
+			isa = PBXGroup;
+			children = (
+				9885E1A024390E1400CDDF96 /* NWMethodSignature.h */,
+				9885E1A124390E1400CDDF96 /* NWObjCMethodSignature.h */,
+				9885E1A224390E1400CDDF96 /* NWMethodSignature.m */,
+				9885E1A324390E1400CDDF96 /* NWObjCMethodSignature.m */,
+			);
+			path = Signature;
+			sourceTree = "<group>";
+		};
+		9885E1A424390E1400CDDF96 /* ReturnValue */ = {
+			isa = PBXGroup;
+			children = (
+				9885E1A524390E1400CDDF96 /* NWMethodReturnValue.h */,
+				9885E1A624390E1400CDDF96 /* NWMethodReturnValue.m */,
+			);
+			path = ReturnValue;
+			sourceTree = "<group>";
+		};
+		9885E1A724390E1400CDDF96 /* Definition */ = {
+			isa = PBXGroup;
+			children = (
+				9885E1A824390E1400CDDF96 /* NWJSMethod.m */,
+				9885E1A924390E1400CDDF96 /* NWMethod.m */,
+				9885E1AA24390E1400CDDF96 /* NWObjCMethod.m */,
+				9885E1AB24390E1400CDDF96 /* NWMethod.h */,
+				9885E1AC24390E1400CDDF96 /* NWJSMethod.h */,
+				9885E1AD24390E1400CDDF96 /* NWObjCMethod.h */,
+			);
+			path = Definition;
+			sourceTree = "<group>";
+		};
+		9885E1AE24390E1400CDDF96 /* Arguments */ = {
+			isa = PBXGroup;
+			children = (
+				9885E1AF24390E1400CDDF96 /* NWMethodArgument.h */,
+				9885E1B024390E1400CDDF96 /* NWMethodArgument.m */,
+			);
+			path = Arguments;
 			sourceTree = "<group>";
 		};
 		98E44A1B23B3E08E00C28C4F /* Component */ = {
@@ -394,12 +541,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9885E1C124390E1400CDDF96 /* NWMethodArgument.m in Sources */,
 				98E44A2423B3E2F900C28C4F /* NWTest.swift in Sources */,
 				6003F59E195388D20070C39A /* NWAppDelegate.m in Sources */,
+				9885E1BE24390E1400CDDF96 /* NWJSMethod.m in Sources */,
+				9885E1BB24390E1400CDDF96 /* NWMethodSignature.m in Sources */,
+				9885E1B624390E1400CDDF96 /* NWUtils.m in Sources */,
+				9885E1BD24390E1400CDDF96 /* NWMethodReturnValue.m in Sources */,
+				9885E1B124390E1400CDDF96 /* NWDefineDSLParse.swift in Sources */,
+				9885E1B224390E1400CDDF96 /* NWObjCHookInfo.m in Sources */,
 				98E44A2023B3E08E00C28C4F /* NWButtonView.m in Sources */,
+				9885E1BF24390E1400CDDF96 /* NWMethod.m in Sources */,
+				9885E1BA24390E1400CDDF96 /* NWJSBridgeContext.swift in Sources */,
+				9885E1C024390E1400CDDF96 /* NWObjCMethod.m in Sources */,
+				9885E1BC24390E1400CDDF96 /* NWObjCMethodSignature.m in Sources */,
+				9885E1B324390E1400CDDF96 /* NWFuncHookInfoPool.swift in Sources */,
 				98E44A2123B3E08E00C28C4F /* NWStateView.m in Sources */,
 				6003F5A7195388D20070C39A /* NWViewController.m in Sources */,
+				9885E1B824390E1400CDDF96 /* NWJSCoreBridge.swift in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				9885E1B924390E1400CDDF96 /* NWJSEngine.swift in Sources */,
+				9885E1B424390E1400CDDF96 /* NWHookInfo.m in Sources */,
+				9885E1B524390E1400CDDF96 /* NWFuncHook.swift in Sources */,
+				9885E1B724390E1400CDDF96 /* NWJSDownloader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

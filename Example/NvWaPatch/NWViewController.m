@@ -6,7 +6,7 @@
 //  Copyright (c) 2019 李义真. All rights reserved.
 //
 
-#import <NvWaPatchLib/NvWaPatchLib-Swift.h>
+#import <NvWaPatch_Example-Swift.h>
 #import "NWStateView.h"
 #import "NWButtonView.h"
 #import "NWViewController.h"
